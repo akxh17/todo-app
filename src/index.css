@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Prompt", sans-serif;
+}
+
+.main-container {
+  background-color: #38414a;
+  min-height: 100vh;
+  padding:70px;
+}
+
+.main-container-light {
+  background-color: #e9f2ff;
+  min-height: 100vh;
+  padding:70px;
+}
+
+nav {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #101214;
+  color: #dee4ea;
+}
+
+nav.light {
+  background-color: #091e424f;
+  color: #0055cc;
+}
+
+.nav-header {
+  font-size: 30px;
+  padding: 20px;
+}
+
+.input--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #9fadbc;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius:15px;
+}
+
+.input--container--light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #b6c2cf;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 20px;
+  color: #0055cc;
+  border-radius:15px;
+}
+
+.input--title {
+  display: block;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.input--form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.input--header,
+.input--description {
+  width: 500px;
+  height: 40px;
+  text-indent: 20px;
+}
+.input--button {
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggler-container {
+  padding: 20px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.toggler-light,
+.toggler-dark {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.toggler-slider {
+  width: 40px;
+  height: 20px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav.light .toggler-slider {
+  background-color: #454f59;
+  border-color: #454f59;
+  justify-content: flex-end;
+}
+
+.toggler-circle {
+  width: 20px;
+  height: 20px;
+  background-color: #454f59;
+  border-radius: 50%;
+}
+
+nav.light .toggler-circle {
+  background-color: white;
+}
+
+.todo-container {
+  margin-top: 30px;
+  margin-right:30px;
+  margin-left:30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #626f86;
+  padding: 30px;
+  border-radius:15px;
+}
+
+.todo-container-light {
+  margin-top: 30px;
+  margin-right:30px;
+  margin-left:30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9fadbc;
+  padding: 30px;
+  color: #0055cc;
+  border-radius:15px;
+}
+
+.todo-items {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-header {
+  font-size: 25px;
+}
+
+.todo-description {
+  font-size: 20px;
+  color: #dee4ea;
+}
+
+.todo-container-light .todo-description {
+  font-size: 20px;
+  color: black;
+}
+
+.todo-delete {
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
